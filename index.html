@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Shopping Cart</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d_flex just-s items-center">
+        <h1>My Shopping Cart</h1>
+        <aside>
+          <button id="myBtn">
+            <!-- <img> -->
+            cart
+          </button>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container">
+      <section></section>
+      <section>
+        <div id="products" class="products"></div>
+      </section>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="cartHead"></div>
+          <div id="cartContent"></div>
+          <!-- <p>Some text in the Modal..</p> -->
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
